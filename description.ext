@@ -1,0 +1,31 @@
+author			= "Nash";
+
+onLoadName 		= $STR_DLib_MissionName;
+onLoadMission 	= $STR_DLib_LoadMission;
+onLoadIntro		= $STR_DLib_LoadIntro;
+//loadScreen 		="images\loadScreen.paa";
+overviewText 	= $STR_DLib_OverviewText
+
+
+respawn = 3;
+respawndelay = 10;
+disabledAI = 0;
+
+enableDebugConsole = 1;
+allowFunctionsLog = 1;
+
+
+
+class Header
+{
+	gameType = RPG;
+	minPlayers = 1;
+	maxPlayers = 6;
+};
+
+
+
+class CfgFunctions 
+{
+	#include "functions\cfgFunctions.hpp"
+};

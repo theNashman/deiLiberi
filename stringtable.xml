@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name = "deiLiberi">
+    <Package name = "deiLiberi">
+
+        <Key ID="STR_DLib_MissionName">
+            <Original>dei Liberi</Original>
+        </Key>
+
+        <Key ID="STR_DLib_LoadMission">
+            <Original>This island has become your playground of destruction/Original>
+        </Key>
+
+        <Key ID="STR_DLib_OverviewText">
+            <Original>Altis has been invaded. WMDs are in play. Hunt down the Deck of 52, find the nukes, get paid. And save the world too.</Original>
+        </Key>
+
+        <Key ID="STR_DLib_LoadIntro">
+            <Original>Did you know... there are three kinds of aces?</Original>
+        </Key>
+        
+    </Package>
+</Project>
