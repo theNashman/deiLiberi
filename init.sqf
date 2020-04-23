@@ -29,6 +29,8 @@ resistance setFriend [west, 0];
 resistance setFriend [east, 0];		//Can never be too sure, so I set it again
 east setFriend [resistance, 0];
 
+//Trust Arrays
+DLIB_TRUST_ARRAY = player setVariable ["DLIB_TRUST_ARRAY", [2,2,2,2], true];
 
 
 
