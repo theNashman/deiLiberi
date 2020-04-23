@@ -29,3 +29,12 @@ class CfgFunctions
 {
 	#include "functions\cfgFunctions.hpp"
 };
+
+//Global Constants
+
+
+DLIB_NATO_TRUST = 2;
+DLIB_FIA_TRUST = 2;
+DLIB_AAF_TRUST = 2;
+DLIB_MAFIA_TRUST = 2;
+DLIB_TRUST_ARRAY[] = {DLIB_NATO_TRUST, DLIB_FIA_TRUST, DLIB_AAF_TRUST, DLIB_MAFIA_TRUST};

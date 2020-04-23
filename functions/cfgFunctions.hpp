@@ -1,6 +1,6 @@
-class DLib
+class DLIB
 {
-	class DLib
+	class DLIB
 	{
 		file = "functions";
 		class changeSide;
