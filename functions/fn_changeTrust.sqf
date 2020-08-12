@@ -2,19 +2,22 @@
 Inputs change increment and faction
 Changes trust states for faction
 
--5 to -1 is enemy
+-1 to -5 is enemy
 0 to 9 is neutral
 10 to 15 is friendly
 
-Neutral for AAF/Mafia is the same as hostile because it should be harder for you to join their side
+Factions are: "NATO", "FIA", "AAF", "MAFIA" 
 E.g [2, "NATO"] call DLIB_fnc_changeTrust
+This will increase NATO trust by 2
+
+NOTE: Neutral for AAF/Mafia is the same as hostile because it should be harder for you to join their side
 */
 
 
 
 params ["_trust", "_faction"];
 
-private _trustArray = player getVariable ["DLIB_TRUST_ARRAY", [2,2,2,2]];
+private _trustArray = DLIB_TRUST_ARRAY;
 _DLIB_NATO_TRUST = _trustArray select 0;
 _DLIB_FIA_TRUST = _trustArray select 1;
 _DLIB_AAF_TRUST = _trustArray select 2;

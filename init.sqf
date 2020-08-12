@@ -22,15 +22,16 @@ enableSaving [ true, false ];
 	Corrupt AAF officials are supporting Mafia (sometimes).
 	Can use OPFOR FIA to simulate AAF vs Mafia situations.
 	Sort of 3.5-Way War.
+	And of course, everyone hates CSAT
 */
 
-west setFriend [resistance, 0];
-resistance setFriend [west, 0];
+west setFriend [resistance, 1];		//Starts of as 'friendly' becomes hostile later on
+resistance setFriend [west, 1];
 resistance setFriend [east, 0];		//Can never be too sure, so I set it again
 east setFriend [resistance, 0];
 
 //Trust Arrays
-DLIB_TRUST_ARRAY = player setVariable ["DLIB_TRUST_ARRAY", [2,2,2,2], true];
+DLIB_TRUST_ARRAY = [5,5,5,5];		//referenced by fn_changeTrust.sqf
 
 
 
